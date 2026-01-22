@@ -1,0 +1,33 @@
+name: sc-workflow
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Core
+  - pip
+
+  # Jupyter
+  - jupyterlab
+  - ipykernel
+  
+  # Scientific stack (good to pin loosely for scanpy stability)
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+
+  # Single-cell / graph
+  - scanpy
+  - leidenalg
+  - igraph
+
+  # Bioinformatics
+  - pybiomart
+
+  # Pip-only or better via pip
+  - pip:
+      - kb-python
+      - ffq
