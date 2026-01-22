@@ -8,6 +8,13 @@ git clone https://github.com/hossainlab/sc-kallisto.git
 cd sc-kallisto
 ```
 
+## Open with Jupyter Lab 
+Make sure you have Jupyter Lab installed in your conda environment. Then, run:
+
+```bash
+jupyter lab
+```
+
 ## Folder Structure
 - `notebooks/`: Contains the main scripts for running the kallisto | bustools workflow.
 - `raw_data/`: Example datasets for testing the workflow.nce analysis.
