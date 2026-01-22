@@ -8,6 +8,12 @@ git clone https://github.com/hossainlab/sc-kallisto.git
 cd sc-kallisto
 ```
 
+## Folder Structure
+- `notebooks/`: Contains the main scripts for running the kallisto | bustools workflow.
+- `raw_data/`: Example datasets for testing the workflow.nce analysis.
+- `results/`: Directory to store output results from the single-cell RNA-seq experiments.
+- `environment.yml`: Conda environment file with all necessary dependencies.nce data processing.    
+s
 ## Installation
 Use `enronment.yml` to create a conda environment with all dependencies:
 
